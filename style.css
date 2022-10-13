@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    position: sticky;
+    background-color: white;
+    margin: 30px;
+    padding: 0px 80px;
+    top: 0;
+}
+h2{
+    text-align: center ;
+    margin: 30px;
+    background-color: rgb(189, 147, 147);
+    border-radius: 10px;
+    width: 100%-30px;
+    
+}
+.myList{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-left:90px;
+}
+.pull{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.pantalon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;  
+}
+.sweetshirt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+footer {
+    text-align: center;
+    color: #ABABAB;
+}
+.red-heart {
+    color: red;
+}
